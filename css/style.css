@@ -15,8 +15,9 @@ body{
     align-items: center;
     justify-content: center;
     position: fixed;
-    bottom: 0;
+    bottom: 10px;
     right: 10px;
+    z-index: 1000000;
 }
 section{
     width: 100%;
