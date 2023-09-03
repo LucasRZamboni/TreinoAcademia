@@ -26,3 +26,12 @@ section{
 img{
     width: 100%;
 }
+table tr th{
+    text-align: center;
+    vertical-align: middle;
+}
+table tr td{
+    font-size: 11px;
+    text-align: center;
+    vertical-align: middle;
+}

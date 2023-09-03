@@ -1,0 +1,1913 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/util/_bootswatch.scss" />
+    <link rel="stylesheet" href="css/util/_variables.scss" />
+    <link rel="stylesheet" href="css/util/bootstrap.css" />
+    <link rel="stylesheet" href="css/util/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Treino</title>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg bg-primary"
+        data-bs-theme="dark"
+        id="top"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">WT</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarColor01"
+            aria-controls="navbarColor01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#"
+                  >Home
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Treinos</a
+                >
+                <div class="dropdown-menu bg-gradient">
+                  <a class="dropdown-item" href="#segunda">Segunda</a>
+                  <a class="dropdown-item" href="#terça">Terça</a>
+                  <a class="dropdown-item" href="#quarta">Quarta</a>
+                  <a class="dropdown-item" href="#quinta">Quinta</a>
+                  <a class="dropdown-item" href="#sexta">Sexta</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Como faz</a
+                >
+                <div class="dropdown-menu bg-gradient">
+                  <a class="dropdown-item" href="#comofazseg">Segunda</a>
+                  <a class="dropdown-item" href="#comofazter">Terça</a>
+                  <a class="dropdown-item" href="#comofazqua">Quarta</a>
+                  <a class="dropdown-item" href="#comofazqui">Quinta</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobre.html">Sobre</a>
+              </li>
+            </ul>
+            <!-- <form class="d-flex">
+              <input
+                class="form-control me-sm-2"
+                type="search"
+                placeholder="Search"
+              />
+              <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+                Search
+              </button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container bg-dark">
+      <a href="#top" class="top bg-gradient"
+        ><ion-icon name="arrow-up-outline"></ion-icon
+      ></a>
+      <h3 class="text-center text-warning p-4 bg-gradient">
+        <ion-icon name="barbell-outline" class="text-success"></ion-icon> Treino
+        academia
+        <ion-icon name="barbell-outline" class="text-success"></ion-icon>
+      </h3>
+
+      <!-- ----------------SEGUNDA FEIRA---------------- -->
+
+      <section class="bg-gradient">
+        <div class="table-responsive">
+          <table class="table table-hover">
+            <h4 class="text-center text-danger bg-black p-2" id="segunda">
+              SEGUNDA FEIRA
+            </h4>
+            <thead>
+              <tr class="table-active">
+                <th scope="col">Tipo de treino</th>
+                <th scope="col">Nome do treino</th>
+                <th scope="col">Séries</th>
+                <th scope="col">Repetições</th>
+                <th scope="col">Exemplo</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Peito</td>
+                <td>Supino inclinado c/ barra</td>
+                <td>5x</td>
+                <td>10 a 12</td>
+                <td>
+                  <a href="#Segunda1"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseSegundaOne"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Peito</td>
+                <td>Crucifixo inclinado</td>
+                <td>4x</td>
+                <td>10 a 12</td>
+                <td>
+                  <a href="#Segunda2"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseSegundaTwo"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Peito</td>
+                <td>Supino reto c/ halteres</td>
+                <td>4x</td>
+                <td>10 a 12</td>
+                <td>
+                  <a href="#Segunda3"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseSegundaThree"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Peito</td>
+                <td>Voador na máquina</td>
+                <td>4x</td>
+                <td>Até a falha</td>
+                <td>
+                  <a href="#Segunda4"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseSegundaFour"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Bícepes</td>
+                <td>Rosca Alternada</td>
+                <td>4x</td>
+                <td>15</td>
+                <td>
+                  <a href="#Segunda5"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseSegundaFive"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Bícepes</td>
+                <td>Rosca Scott barra W</td>
+                <td>4x</td>
+                <td>15</td>
+                <td>
+                  <a href="#Segunda6"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseSegundaSix"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Bícepes</td>
+                <td>Rosca martelo c/ halteres</td>
+                <td>4x</td>
+                <td>15</td>
+                <td>
+                  <a href="#Segunda7"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseSegundaSeven"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Antebraços e Ombro</td>
+                <td>Elevação lateral no cabo</td>
+                <td>3x</td>
+                <td>Até a falha</td>
+                <td>
+                  <a href="#Segunda8"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseSegundaEight"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Antebraços e Ombro</td>
+                <td>Elevação lateral c/ halteres</td>
+                <td>3x</td>
+                <td>Até a falha</td>
+                <td>
+                  <a href="#Segunda9"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseSegundaNine"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Antebraços e Ombro</td>
+                <td>Posterior no cabo</td>
+                <td>3x</td>
+                <td>Até a falha</td>
+                <td>
+                  <a href="#Segunda10"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseSegundaTen"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+              <tr class="table-danger">
+                <td>Panturrilha</td>
+                <td>Em pé e sentado</td>
+                <td>4x</td>
+                <td>10 a 12</td>
+                <td>
+                  <a href="#Segunda11"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseSegundaEleven"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- ----------------TERÇA FEIRA---------------- -->
+
+      <section class="bg-gradient">
+        <div class="table-responsive">
+          <table class="table table-hover">
+            <h4 class="text-center text-danger bg-black p-2" id="terça">
+              TERÇA FEIRA
+            </h4>
+            <thead>
+              <tr class="table-active">
+                <th scope="col">Tipo de treino</th>
+                <th scope="col">Nome do treino</th>
+                <th scope="col">Séries</th>
+                <th scope="col">Repetições</th>
+                <th scope="col">Exemplo</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Dorçal do Naja</td>
+                <td>Barra fixa</td>
+                <td>3x</td>
+                <td>Até a falha</td>
+                <td>
+                  <a href="#Terça1"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTerçaOne"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Dorçal do Naja</td>
+                <td>Remada curvada</td>
+                <td>4x</td>
+                <td>10 a 12</td>
+                <td>
+                  <a href="#Terça2"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTerçaTwo"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Dorçal do Naja</td>
+                <td>Remada unilateral c/ halteres</td>
+                <td>4x</td>
+                <td>10 a 12</td>
+                <td>
+                  <a href="#Terça3"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTerçaThree"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+
+              <tr>
+                <td>Dorçal do Naja</td>
+                <td>Puxador frente</td>
+                <td>4x</td>
+                <td>10 a 12</td>
+                <td>
+                  <a href="#Terça4"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTerçaFour"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Dorçal do Naja</td>
+                <td>Puxador frente supinada</td>
+                <td>4x</td>
+                <td>10 a 12</td>
+                <td>
+                  <a href="#Terça5"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTerçaFive"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Dorsal do Naja</td>
+                <td>Remada baixa + pull down</td>
+                <td>3x</td>
+                <td>Até a falha</td>
+                <td>
+                  <a href="#Terça6"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTerçaSix"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Trícepes</td>
+                <td>Pulley no cabo alto (triângulo)</td>
+                <td>3x</td>
+                <td>Até a falha</td>
+                <td>
+                  <a href="#Terça7"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTerçaSeven"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Trícepes</td>
+                <td>Francês no banco Scott</td>
+                <td>4x</td>
+                <td>10 a 12</td>
+                <td>
+                  <a href="#Terça8"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTerçaEight"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Trícepes</td>
+                <td>Testa no banco inclinado</td>
+                <td>4x</td>
+                <td>10 a 12</td>
+                <td>
+                  <a href="#Terça9"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTerçaNine"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Trícepes</td>
+                <td>Corda no cabo</td>
+                <td>4x</td>
+                <td>Até a falha</td>
+                <td>
+                  <a href="#Terça10"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTerçaTen"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- ----------------QUARTA FEIRA---------------- -->
+
+      <section class="bg-gradient">
+        <div class="table-responsive">
+          <table class="table table-hover">
+            <h4 class="text-center text-danger bg-black p-2" id="quarta">
+              QUARTA FEIRA
+            </h4>
+            <thead>
+              <tr class="table-active">
+                <th scope="col">Tipo de treino</th>
+                <th scope="col">Nome do treino</th>
+                <th scope="col">Séries</th>
+                <th scope="col">Repetições</th>
+                <th scope="col">Exemplo</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Perna completo</td>
+                <td>Cadeira Extensora</td>
+                <td>5x</td>
+                <td>10 a 15</td>
+                <td>
+                  <a href="#Quarta1"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseQuartaOne"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Perna completo</td>
+                <td>Leg press 45°</td>
+                <td>5x</td>
+                <td>10 a 15</td>
+                <td>
+                  <a href="#Quarta2"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseQuartaTwo"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Perna completo</td>
+                <td>Agachamento livre</td>
+                <td>4x</td>
+                <td>10 a 12</td>
+                <td>
+                  <a href="#Quarta3"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseQuartaThree"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Perna completo</td>
+                <td>Flexora sentado</td>
+                <td>5x</td>
+                <td>10 a 12</td>
+                <td>
+                  <a href="#Quarta4"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseQuartaFour"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Perna completo</td>
+                <td>Flexora deitado</td>
+                <td>5x</td>
+                <td>10 a 12</td>
+                <td>
+                  <a href="#Quarta5"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseQuartaFive"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Perna completo</td>
+                <td>Adultora + abdultora</td>
+                <td>5x</td>
+                <td>10 a 12</td>
+                <td>
+                  <a href="#Quarta6"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseQuartaSix"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Perna completo</td>
+                <td>Stiff com halteres</td>
+                <td>3x</td>
+                <td>Até a falha</td>
+                <td>
+                  <a href="#Quarta7"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseQuartaSeven"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+              <tr class="table-danger">
+                <td>Panturrilha</td>
+                <td>Em pé e sentado</td>
+                <td>4x</td>
+                <td>10 a 12</td>
+                <td>
+                  <a href="#Quarta8"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseQuartaEight"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- ----------------QUINTA FEIRA---------------- -->
+
+      <section class="bg-gradient">
+        <div class="table-responsive">
+          <table class="table table-hover">
+            <h4 class="text-center text-danger bg-black p-2" id="quinta">
+              QUINTA FEIRA
+            </h4>
+            <thead>
+              <tr class="table-active">
+                <th scope="col">Tipo de treino</th>
+                <th scope="col">Nome do treino</th>
+                <th scope="col">Séries</th>
+                <th scope="col">Repetições</th>
+                <th scope="col">Exemplo</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Ombro e Trapézio</td>
+                <td>Desenvolvimento c/ halteres</td>
+                <td>5x</td>
+                <td>15</td>
+                <td>
+                  <a href="#Quinta1"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseQuintaOne"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Ombro e Trapézio</td>
+                <td>Elevação lateral c/ halteres</td>
+                <td>10x</td>
+                <td>10 seg</td>
+                <td>
+                  <a href="#Quinta2"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseQuintaTwo"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Ombro e Trapézio</td>
+                <td>Elevação fronta no cabo</td>
+                <td>5x</td>
+                <td>10 a 15</td>
+                <td>
+                  <a href="#Quinta3"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseQuintaThree"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Obro e Trapézio</td>
+                <td>Elevação frontal c/ halteres sentado</td>
+                <td>4x</td>
+                <td>10</td>
+                <td>
+                  <a href="#Quinta4"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseQuintaFour"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Obro e Trapézio</td>
+                <td>Posterior no cabo + posterior c/ halteres</td>
+                <td>3x</td>
+                <td>Até a falha</td>
+                <td>
+                  <a href="#Quinta5"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseQuintaFive"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Obro e Trapézio</td>
+                <td>Encolhimento c/ barra</td>
+                <td>5x</td>
+                <td>Até a falha</td>
+                <td>
+                  <a href="#Quinta6"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseQuintaSix"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Obro e Trapézio</td>
+                <td>Remada alta no cabo</td>
+                <td>3x</td>
+                <td>Até a falha</td>
+                <td>
+                  <a href="#Quinta7"
+                    ><button
+                      type="button"
+                      class="btn btn-outline-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseQuintaSeven"
+                    >
+                      Ver
+                    </button></a
+                  >
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <!-- ----------------SEXTA FEIRA---------------- -->
+      <section class="bg-gradient">
+        <div class="table-responsive">
+          <table class="table table-hover">
+            <h4 class="text-center text-danger bg-black p-2" id="sexta">
+              SEXTA FEIRA
+            </h4>
+            <thead>
+              <tr class="table-active">
+                <th scope="col">Tipo de treino</th>
+                <th scope="col">Nome do treino</th>
+                <th scope="col">Séries</th>
+                <th scope="col">Repetições</th>
+                <th scope="col">Exemplo</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Livre</td>
+                <td>Treino livre</td>
+                <td>4x</td>
+                <td>10 a 12</td>
+              </tr>
+              <tr>
+                <td>Volta o de segunda</td>
+                <td>Peito</td>
+                <td>5x</td>
+                <td>10 a 12</td>
+              </tr>
+              <tr class="table-danger">
+                <td>Panturrilha</td>
+                <td>Em pé e sentado</td>
+                <td>4x</td>
+                <td>10 a 12</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <h3 class="text-center text-warning p-4 bg-gradient">Como faz?</h3>
+
+      <section class="bg-gradient">
+        <h4 class="text-center text-danger p-2 bg-black" id="comofazseg">
+          SEGUNDA FEIRA
+        </h4>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item" id="Segunda1">
+            <h2 class="accordion-header" id="headingSegundaOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSegundaOne"
+                aria-expanded="false"
+                aria-controls="collapseSegundaOne"
+              >
+                Supino inclinado com barra
+              </button>
+            </h2>
+            <div
+              id="collapseSegundaOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingSegundaOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Segunda/supino inclinado barra.PNG"
+                  alt="supino inclinado com barra"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="Segunda2">
+            <h2 class="accordion-header" id="headingSegundaTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSegundaTwo"
+                aria-expanded="false"
+                aria-controls="collapseSegundaTwo"
+              >
+                Crucifixo inclinado
+              </button>
+            </h2>
+            <div
+              id="collapseSegundaTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingSegundaTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Segunda/cruxifixo inclinado.PNG"
+                  alt="Crucifixo inclinado"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="Segunda3">
+            <h2 class="accordion-header" id="headingSegundaThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSegundaThree"
+                aria-expanded="false"
+                aria-controls="collapseSegundaThree"
+              >
+                Supino reto c/ halteres
+              </button>
+            </h2>
+            <div
+              id="collapseSegundaThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingSegundaThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Segunda/supino reto com halter.png"
+                  alt="supino reto com halter"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="Segunda4">
+            <h2 class="accordion-header" id="headingSegundaFour">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSegundaFour"
+                aria-expanded="false"
+                aria-controls="collapseSegundaFour"
+              >
+                Voador na máquina
+              </button>
+            </h2>
+            <div
+              id="collapseSegundaFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingSegundaFour"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Segunda/voador na maquina.png"
+                  alt="supino reto com halter"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="Segunda5">
+            <h2 class="accordion-header" id="headingSegundaFive">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSegundaFive"
+                aria-expanded="false"
+                aria-controls="collapseSegundaFive"
+              >
+                Rosca Alternada
+              </button>
+            </h2>
+            <div
+              id="collapseSegundaFive"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingSegundaFive"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Segunda/rosca alternada.png"
+                  alt="supino reto com halter"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="Segunda6">
+            <h2 class="accordion-header" id="headingSegundaSix">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSegundaSix"
+                aria-expanded="false"
+                aria-controls="collapseSegundaSix"
+              >
+                Rosca Scott barra W
+              </button>
+            </h2>
+            <div
+              id="collapseSegundaSix"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingSegundaSix"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Segunda/rosca scott.png"
+                  alt="supino reto com halter"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="Segunda7">
+            <h2 class="accordion-header" id="headingSegundaSeven">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSegundaSeven"
+                aria-expanded="false"
+                aria-controls="collapseSegundaSeven"
+              >
+                Rosca martelo c/ halteres
+              </button>
+            </h2>
+            <div
+              id="collapseSegundaSeven"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingSegundaSeven"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Segunda/rosca martelo.png"
+                  alt="supino reto com halter"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="Segunda8">
+            <h2 class="accordion-header" id="headingSegundaEight">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSegundaEight"
+                aria-expanded="false"
+                aria-controls="collapseSegundaEight"
+              >
+                Elevação lateral no cabo
+              </button>
+            </h2>
+            <div
+              id="collapseSegundaEight"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingSegundaEight"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Segunda/Elevação lateral no cabo.png"
+                  alt="supino reto com halter"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="Segunda9">
+            <h2 class="accordion-header" id="headingSegundaNine">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSegundaNine"
+                aria-expanded="false"
+                aria-controls="collapseSegundaNine"
+              >
+                Elevação lateral c/ halteres
+              </button>
+            </h2>
+            <div
+              id="collapseSegundaNine"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingSegundaNine"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Segunda/Elevação lateral com halter.png"
+                  alt="supino reto com halter"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="Segunda10">
+            <h2 class="accordion-header" id="headingSegundaTen">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSegundaTen"
+                aria-expanded="false"
+                aria-controls="collapseSegundaTen"
+              >
+                Posterior no cabo
+              </button>
+            </h2>
+            <div
+              id="collapseSegundaTen"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingSegundaTen"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Segunda/Posterior no cabo.png"
+                  alt="supino reto com halter"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="Segunda11">
+            <h2 class="accordion-header" id="headingSegundaEleven">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSegundaEleven"
+                aria-expanded="false"
+                aria-controls="collapseSegundaEleven"
+              >
+                Panturrilha - Em pé e sentado
+              </button>
+            </h2>
+            <div
+              id="collapseSegundaEleven"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingSegundaEleven"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Segunda/panturrilha em pé e sentado.png"
+                  alt="supino reto com halter"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ----------------TERÇA FEIRA---------------- -->
+      <section class="bg-gradient">
+        <h4 class="text-center text-danger p-2 bg-black" id="comofazter">
+          TERÇA FEIRA
+        </h4>
+        <div class="accordion" id="accordionExample2">
+          <div class="accordion-item" id="Terça1">
+            <h2 class="accordion-header" id="headingTerçaOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTerçaOne"
+                aria-expanded="false"
+                aria-controls="collapseTerçaOne"
+              >
+                Barra Fixa
+              </button>
+            </h2>
+            <div
+              id="collapseTerçaOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTerçaOne"
+              data-bs-parent="#accordionExample2"
+            >
+              <div class="accordion-body">
+                <img src="images/Terça/barra fixa.PNG" alt="Barra Fixa" />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="Terça2">
+            <h2 class="accordion-header" id="headingTerçaTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTerçaTwo"
+                aria-expanded="false"
+                aria-controls="collapseTerçaTwo"
+              >
+                Remada Curvada
+              </button>
+            </h2>
+            <div
+              id="collapseTerçaTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTerçaTwo"
+              data-bs-parent="#accordionExample2"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Terça/remada curvada.PNG"
+                  alt="Remada Curvada"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="Terça3">
+            <h2 class="accordion-header" id="headingTerçaThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTerçaThree"
+                aria-expanded="false"
+                aria-controls="collapseTerçaThree"
+              >
+                Remada unilateral c halteres
+              </button>
+            </h2>
+            <div
+              id="collapseTerçaThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTerçaThree"
+              data-bs-parent="#accordionExample2"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Terça/Remada unilateral halteres.PNG"
+                  alt="Remada unilateral c halteres"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="Terça4">
+            <h2 class="accordion-header" id="headingTerçaFour">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTerçaFour"
+                aria-expanded="false"
+                aria-controls="collapseTerçaFour"
+              >
+                Puxador frente
+              </button>
+            </h2>
+            <div
+              id="collapseTerçaFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTerçaFour"
+              data-bs-parent="#accordionExample2"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Terça/Puxador frente.PNG"
+                  alt="Puxador frente"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="Terça5">
+            <h2 class="accordion-header" id="headingTerçaFive">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTerçaFive"
+                aria-expanded="false"
+                aria-controls="collapseTerçaFive"
+              >
+                Puxador frente supinada
+              </button>
+            </h2>
+            <div
+              id="collapseTerçaFive"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTerçaFive"
+              data-bs-parent="#accordionExample2"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Terça/Puxador frente supinada.PNG"
+                  alt="Puxador frente supinada"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="Terça6">
+            <h2 class="accordion-header" id="headingTerçaSix">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTerçaSix"
+                aria-expanded="false"
+                aria-controls="collapseTerçaSix"
+              >
+                Remada baixa + pull down
+              </button>
+            </h2>
+            <div
+              id="collapseTerçaSix"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTerçaSix"
+              data-bs-parent="#accordionExample2"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Terça/remada baixa.PNG"
+                  alt="Remada baixa + pull down"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="Terça7">
+            <h2 class="accordion-header" id="headingTerçaSeven">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTerçaSeven"
+                aria-expanded="false"
+                aria-controls="collapseTerçaSeven"
+              >
+                Pulley no cabo alto (triângulo)
+              </button>
+            </h2>
+            <div
+              id="collapseTerçaSeven"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTerçaSeven"
+              data-bs-parent="#accordionExample2"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Terça/Pulley cabo alto - triangulo.PNG"
+                  alt="Pulley no cabo alto (triângulo)"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="Terça8">
+            <h2 class="accordion-header" id="headingTerçaEight">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTerçaEight"
+                aria-expanded="false"
+                aria-controls="collapseTerçaEight"
+              >
+                Françês no banco Scott
+              </button>
+            </h2>
+            <div
+              id="collapseTerçaEight"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTerçaEight"
+              data-bs-parent="#accordionExample2"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Terça/frances banco scott.PNG"
+                  alt="Françês no banco Scott"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="Terça9">
+            <h2 class="accordion-header" id="headingTerçaNine">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTerçaNine"
+                aria-expanded="false"
+                aria-controls="collapseTerçaNine"
+              >
+                Testa no banco inclinado
+              </button>
+            </h2>
+            <div
+              id="collapseTerçaNine"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTerçaNine"
+              data-bs-parent="#accordionExample2"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Terça/Testa no banco inclinado.PNG"
+                  alt="Testa no banco inclinado"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="Terça10">
+            <h2 class="accordion-header" id="headingTerçaTen">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTerçaTen"
+                aria-expanded="false"
+                aria-controls="collapseTerçaTen"
+              >
+                Corda no cabo
+              </button>
+            </h2>
+            <div
+              id="collapseTerçaTen"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTerçaTen"
+              data-bs-parent="#accordionExample2"
+            >
+              <div class="accordion-body">
+                <img src="images/Terça/corda no cabo.PNG" alt="Corda no cabo" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ----------------QUARTA FEIRA---------------- -->
+
+      <section class="bg-gradient">
+        <h4 class="text-center text-danger p-2 bg-black" id="comofazqua">
+          QUARTA FEIRA
+        </h4>
+        <div class="accordion" id="accordionExample3">
+          <div class="accordion-item" id="Quarta1">
+            <h2 class="accordion-header" id="headingQuartaOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseQuartaOne"
+                aria-expanded="false"
+                aria-controls="collapseQuartaOne"
+              >
+                Cadeira Extensora
+              </button>
+            </h2>
+            <div
+              id="collapseQuartaOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingQuartaOne"
+              data-bs-parent="#accordionExample3"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Quarta/cadeira extensora.PNG"
+                  alt="Cadeira Extensora"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="Quarta2">
+            <h2 class="accordion-header" id="headingQuartaTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseQuartaTwo"
+                aria-expanded="false"
+                aria-controls="collapseQuartaTwo"
+              >
+                Leg Press 45°
+              </button>
+            </h2>
+            <div
+              id="collapseQuartaTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingQuartaTwo"
+              data-bs-parent="#accordionExample3"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Quarta/leg press 45º.PNG"
+                  alt="Leg Press 45°"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="Quarta3">
+            <h2 class="accordion-header" id="headingQuartaThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseQuartaThree"
+                aria-expanded="false"
+                aria-controls="collapseQuartaThree"
+              >
+                Agachamento livre
+              </button>
+            </h2>
+            <div
+              id="collapseQuartaThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingQuartaThree"
+              data-bs-parent="#accordionExample3"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Quarta/agachamento livre.PNG"
+                  alt="Agachamento livre"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="Quarta4">
+            <h2 class="accordion-header" id="headingQuartaFour">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseQuartaFour"
+                aria-expanded="false"
+                aria-controls="collapseQuartaFour"
+              >
+                Flexora Sentado
+              </button>
+            </h2>
+            <div
+              id="collapseQuartaFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingQuartaFour"
+              data-bs-parent="#accordionExample3"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Quarta/flexora sentado.PNG"
+                  alt="Flexora Sentado"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="Quarta5">
+            <h2 class="accordion-header" id="headingQuartaFive">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseQuartaFive"
+                aria-expanded="false"
+                aria-controls="collapseQuartaFive"
+              >
+                Flexora deitado
+              </button>
+            </h2>
+            <div
+              id="collapseQuartaFive"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingQuartaFive"
+              data-bs-parent="#accordionExample3"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Quarta/flexora deitado.PNG"
+                  alt="Flexora deitado"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="Quarta6">
+            <h2 class="accordion-header" id="headingQuartaSix">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseQuartaSix"
+                aria-expanded="false"
+                aria-controls="collapseQuartaSix"
+              >
+                Adultora + abdultora
+              </button>
+            </h2>
+            <div
+              id="collapseQuartaSix"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingQuartaSix"
+              data-bs-parent="#accordionExample3"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Quarta/adultora + abdultora.png"
+                  alt="Adultora + abdultora"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="Quarta7">
+            <h2 class="accordion-header" id="headingQuartaSeven">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseQuartaSeven"
+                aria-expanded="false"
+                aria-controls="collapseQuartaSeven"
+              >
+                Stiff com halteres
+              </button>
+            </h2>
+            <div
+              id="collapseQuartaSeven"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingQuartaSeven"
+              data-bs-parent="#accordionExample3"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Quarta/stiff com halter.PNG"
+                  alt="Stiff com halteres"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="Quarta8">
+            <h2 class="accordion-header" id="headingQuartaEight">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseQuartaEight"
+                aria-expanded="false"
+                aria-controls="collapseQuartaEight"
+              >
+                Panturrilha em pé e sentado
+              </button>
+            </h2>
+            <div
+              id="collapseQuartaEight"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingQuartaEight"
+              data-bs-parent="#accordionExample3"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Quarta/panturrilha em pé e sentado.png"
+                  alt="Panturrilha em pé e sentado"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ----------------QUINTA FEIRA---------------- -->
+
+      <section class="bg-gradient">
+        <h4 class="text-center text-danger p-2 bg-black" id="comofazqui">
+          QUINTA FEIRA
+        </h4>
+        <div class="accordion" id="accordionExample4">
+          <div class="accordion-item" id="Quinta1">
+            <h2 class="accordion-header" id="headingQuintaOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseQuintaOne"
+                aria-expanded="false"
+                aria-controls="collapseQuintaOne"
+              >
+                Desenvolvimento com halteres
+              </button>
+            </h2>
+            <div
+              id="collapseQuintaOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingQuintaOne"
+              data-bs-parent="#accordionExample4"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Quinta/Desenvolvimento halteres.png"
+                  alt="Desenvolvimento com halteres"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="Quinta2">
+            <h2 class="accordion-header" id="headingQuintaTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseQuintaTwo"
+                aria-expanded="false"
+                aria-controls="collapseQuintaTwo"
+              >
+                Elevação lateral com halteres
+              </button>
+            </h2>
+            <div
+              id="collapseQuintaTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingQuintaTwo"
+              data-bs-parent="#accordionExample4"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Quinta/elevação lateral halteres.png"
+                  alt="Elevação lateral com halteres"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="Quinta3">
+            <h2 class="accordion-header" id="headingQuintaThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseQuintaThree"
+                aria-expanded="false"
+                aria-controls="collapseQuintaThree"
+              >
+                Elevação fontal no cabo
+              </button>
+            </h2>
+            <div
+              id="collapseQuintaThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingQuintaThree"
+              data-bs-parent="#accordionExample4"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Quinta/Elevação frontal  no cabo.png"
+                  alt="Elevação fontal no cabo"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="Quinta4">
+            <h2 class="accordion-header" id="headingQuintaFour">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseQuintaFour"
+                aria-expanded="false"
+                aria-controls="collapseQuintaFour"
+              >
+                Elevação fronta com halteres sentado
+              </button>
+            </h2>
+            <div
+              id="collapseQuintaFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingQuintaFour"
+              data-bs-parent="#accordionExample4"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Quinta/Elevação frontal  halteres sentado.png"
+                  alt="Elevação fronta com halteres sentado"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="Quinta5">
+            <h2 class="accordion-header" id="headingQuintaFive">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseQuintaFive"
+                aria-expanded="false"
+                aria-controls="collapseQuintaFive"
+              >
+                Posterior no cabo + posterior com halteres
+              </button>
+            </h2>
+            <div
+              id="collapseQuintaFive"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingQuintaFive"
+              data-bs-parent="#accordionExample4"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Quinta/Posterior no cabo + posterior halteres.png"
+                  alt="Posterior no cabo + posterior com halteres"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="Quinta6">
+            <h2 class="accordion-header" id="headingQuintaSix">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseQuintaSix"
+                aria-expanded="false"
+                aria-controls="collapseQuintaSix"
+              >
+                Encolhimento com barra
+              </button>
+            </h2>
+            <div
+              id="collapseQuintaSix"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingQuintaSix"
+              data-bs-parent="#accordionExample4"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Quinta/Encolhimento barra.png"
+                  alt="Encolhimento com barra"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="Quinta7">
+            <h2 class="accordion-header" id="headingQuintaSeven">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseQuintaSeven"
+                aria-expanded="false"
+                aria-controls="collapseQuintaSeven"
+              >
+                Remada alta no cabo
+              </button>
+            </h2>
+            <div
+              id="collapseQuintaSeven"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingQuintaSeven"
+              data-bs-parent="#accordionExample4"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/Quinta/Remada alta no cabo.png"
+                  alt="Remada alta no cabo"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
