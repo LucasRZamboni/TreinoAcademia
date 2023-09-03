@@ -18,7 +18,7 @@
 
     <link rel="stylesheet" href="css/style.css" />
 
-    <title>Treino</title>
+    <title>Treinos</title>
   </head>
   <body>
     <header>
@@ -43,7 +43,7 @@
           <div class="collapse navbar-collapse" id="navbarColor01">
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
-                <a class="nav-link active" href="#"
+                <a class="nav-link active" href="home.html"
                   >Home
                   <span class="visually-hidden">(current)</span>
                 </a>
@@ -87,16 +87,22 @@
                 <a class="nav-link" href="sobre.html">Sobre</a>
               </li>
             </ul>
-            <!-- <form class="d-flex">
+            <form class="d-flex">
               <input
                 class="form-control me-sm-2"
                 type="search"
                 placeholder="Search"
+                id="search-input"
+                onkeyup="searchTableTreinos()"
               />
-              <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+              <button
+                class="btn btn-secondary my-2 my-sm-0"
+                type="button"
+                onclick="searchTableTreinos()"
+              >
                 Search
               </button>
-            </form> -->
+            </form>
           </div>
         </div>
       </nav>
@@ -1909,5 +1915,7 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
+
+    <script src="js/pesquisa.js"></script>
   </body>
 </html>

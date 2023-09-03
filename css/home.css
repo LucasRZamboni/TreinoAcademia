@@ -1,0 +1,11 @@
+table tr th{
+    font-size: 17px;
+}
+table tr td{
+    font-size: 15px;
+    text-align: left;
+    vertical-align: middle;
+}
+table tr td:nth-child(3){
+    text-align: center;
+}
